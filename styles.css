@@ -33,6 +33,14 @@ h3 {
     font-size: 2.074rem;
 }
 
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
 a {
     text-decoration: none;
     font-weight: 400;
@@ -216,7 +224,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 2rem;
+    gap: .5rem;
 }
 
 .people h2 {
@@ -224,16 +232,91 @@ main {
     padding-bottom: 2rem;
 }
 
-.people img {
-    /* background-color: grey; */
-    margin: 0 auto;
+.people__image {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.people__image img {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+}
+
+.people__maintext {
+    padding-left: .5em;
+    width: 50%;
+}
+
+.people__maintext h4,
+h5 {
+    margin: 1em 0;
+}
+
+.people li {
+    font-size: 12px;
 }
 
 .people__card {
     background-color: #383838;
     flex: 1 1 40%;
-    padding: 1rem;
+    /* padding: .5rem; */
     box-shadow: -8px 4px 19px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.people__links {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5em;
+    padding: .25em 0 0 0;
+    margin: 0;
+}
+
+.people__links li {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+}
+
+.people__links a {
+    display: block;
+    height: 100%;
+}
+
+.people__links__website {
+    background-image: url("./assets/globe.png");
+}
+
+.people__links__instagram {
+    background-image: url("./assets/instagram.png");
+}
+
+.people__links__github {
+    background-image: url("./assets/github.png");
+}
+
+.people__subtext {
+    font-size: 12px;
+    width: 50%;
+    padding-left: .5rem;
+    margin-bottom: 2rem;
+}
+
+.people__subtext ul {
+    padding: .5em 0 0 .5em;
+    margin: 0;
+}
+
+.people li {
+    list-style: none;
 }
 
 .projects h2 {
