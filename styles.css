@@ -196,16 +196,36 @@ main {
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    width: 100%;
+}
+
+.parent {
+    overflow: hidden;
+    width: 100%;
+}
+
+.float--right {
+    float: right;
+    margin: .5em;
+}
+
+.float--left {
+    float: left;
+    margin: .5em;
 }
 
 .about img {
-    width: 250px;
+    width: 128px;
     padding-bottom: 2em;
+    /* float: right; */
 }
+
+/* .about h3,
+p {
+    float: left;
+} */
+
+.about__intro {}
 
 .about h3 {
     padding-bottom: 1em;
@@ -216,7 +236,7 @@ main {
 }
 
 .people {
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
 }
 
 .people__container {
@@ -229,7 +249,7 @@ main {
 
 .people h2 {
     text-align: center;
-    padding-bottom: 2rem;
+    padding: 4rem 0 2rem 0;
 }
 
 .people__image {
@@ -321,7 +341,7 @@ h5 {
 
 .projects h2 {
     text-align: center;
-    padding-bottom: 1rem;
+    padding: 4rem 0 2rem 0;
 }
 
 .projects__card {
