@@ -5,7 +5,7 @@ html * {
 body,
 html {
     margin: 0;
-    font-family: 'IBM Plex Sans';
+    font-family: 'Roboto Mono';
 }
 
 .wrapper {
@@ -39,7 +39,7 @@ a {
 }
 
 .bg--dark {
-    background-color: rgb(14, 14, 56);
+    background-color: #0c0c0c;
 }
 
 .bg--light {
@@ -51,11 +51,12 @@ a {
 }
 
 .text--light {
-    color: rgb(203, 228, 236);
+    color: #fff;
 }
 
 .btn-primary {
-    border: 3px solid blue;
+    border: 3px solid #759AFF;
+    color: #759AFF;
     padding: .5em;
     border-radius: 10px;
 }
@@ -71,7 +72,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 4em;
-    margin: 0 1em;
+    padding: 0 1em;
+    background-color: black;
 }
 
 .nav__links {
@@ -161,7 +163,7 @@ main {
 
 .news--carousel__card {
     border-radius: 10px;
-    background-color: white;
+    background-color: #383838;
     margin: 2em;
     height: 20em;
     width: 20em;
@@ -172,12 +174,12 @@ main {
 }
 
 .news--carousel__card h4 {
-    padding: 0 2rem;
+    padding: 0 1rem;
     margin-bottom: .5em;
 }
 
 .news--carousel__card p {
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 1rem 2rem 1rem;
 
 }
 
@@ -189,7 +191,7 @@ main {
 }
 
 .about img {
-    width: 350px;
+    width: 250px;
     padding-bottom: 2em;
 }
 
@@ -226,7 +228,7 @@ main {
 .people__card {
     border-radius: 10px;
     flex: 1 1 40%;
-    padding: 2rem;
+    padding: 1rem;
     box-shadow: -8px 4px 19px rgba(0, 0, 0, 0.6);
 }
 
@@ -244,10 +246,11 @@ main {
 }
 
 .projects__card {
-    background-color: white;
+    background-color: #383838;
     border-radius: 10px;
     height: 30em;
     box-shadow: -8px 4px 19px rgba(0, 0, 0, 0.6);
+    padding: 1em;
 }
 
 .projects--carousel__picker {
