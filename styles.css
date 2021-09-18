@@ -55,10 +55,9 @@ a {
 }
 
 .btn-primary {
-    border: 3px solid #759AFF;
+    border: 1px solid #759AFF;
     color: #759AFF;
     padding: .5em;
-    border-radius: 10px;
 }
 
 header {
@@ -92,7 +91,7 @@ nav {
 .hamburger--icon span {
     width: 24px;
     height: 2px;
-    background-color: lightblue;
+    background-color: white;
 }
 
 .nav__item {
@@ -127,7 +126,7 @@ header .hero p {
 }
 
 main {
-    padding: 0 2em;
+    padding: 0 1em;
 }
 
 .news {
@@ -152,7 +151,7 @@ main {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    transform: translateX(-2em);
+    transform: translateX(-1em);
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -162,15 +161,18 @@ main {
 }
 
 .news--carousel__card {
-    border-radius: 10px;
     background-color: #383838;
-    margin: 2em;
+    margin: 1em;
     height: 20em;
     width: 20em;
     box-shadow: -8px 4px 19px rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.nomargin {
+    margin: 1em 0;
 }
 
 .news--carousel__card h4 {
@@ -221,12 +223,12 @@ main {
 }
 
 .people img {
-    background-color: grey;
+    /* background-color: grey; */
     margin: 0 auto;
 }
 
 .people__card {
-    border-radius: 10px;
+    background-color: #383838;
     flex: 1 1 40%;
     padding: 1rem;
     box-shadow: -8px 4px 19px rgba(0, 0, 0, 0.6);
@@ -247,7 +249,6 @@ main {
 
 .projects__card {
     background-color: #383838;
-    border-radius: 10px;
     height: 30em;
     box-shadow: -8px 4px 19px rgba(0, 0, 0, 0.6);
     padding: 1em;
@@ -279,7 +280,6 @@ main {
     background-color: darkgrey;
     width: 16px;
     height: 16px;
-    border-radius: 100%;
 }
 
 .selected {
