@@ -113,7 +113,7 @@ nav .logo img {
 }
 
 nav ul {
-    width: 80vw;
+    width: 70vw;
 }
 
 header .hero {
@@ -347,7 +347,6 @@ h5 {
 
 .projects__card {
     display: none;
-    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -495,6 +494,10 @@ footer li:first-child {
 
     .about .btn-primary {
         width: fit-content;
+    }
+
+    .projects__card {
+        max-width: 70%;
     }
 }
 
