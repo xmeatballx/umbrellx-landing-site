@@ -42,6 +42,10 @@ h5 {
   font-size: 12px;
 }
 
+p {
+  max-inline-size: 60ch;
+}
+
 a {
   text-decoration: none;
   font-weight: 400;
@@ -165,12 +169,11 @@ main {
 .news--carousel__card::before {
   content: "";
   position: absolute;
-  width: 20em;
-  height: 20em;
+  inset: 0;
   z-index: 0;
   overflow: hidden;
   background-size: cover;
-  filter: brightness(40%);
+  filter: contrast(50%) brightness(40%);
 }
 
 .news--carousel__funding::before {
@@ -193,7 +196,7 @@ main {
 
 .news__title {
   text-align: center;
-  padding-top: 2em;
+  /* padding-top: 2em; */
 }
 
 .news--carousel {
@@ -215,6 +218,7 @@ main {
 }
 
 .news--carousel__card {
+  position: relative;
   background-color: #383838;
   margin: 1em;
   height: 20em;
@@ -237,6 +241,7 @@ main {
 
 .news--carousel__card p {
   padding: 0 1rem 2rem 1rem;
+  max-inline-size: 40ch;
   z-index: 1;
 }
 
@@ -405,6 +410,27 @@ h5 {
   height: 30em;
   box-shadow: -8px 4px 19px rgba(0, 0, 0, 0.6);
   padding: 1em;
+}
+
+.projects__card > h3,
+.projects__card > p {
+  width: max-content;
+  background-color: #0c0c0c;
+}
+
+.margins {
+  background-image: url("./assets/margins.png");
+  background-size: cover;
+}
+
+.oss {
+  background-image: url(https://pickathon.com/wp-content/uploads/2019/07/openStarSystems2-1024x568.png);
+}
+
+.ssw {
+  background-image: url("./assets/ssw.png");
+  background-size: cover;
+  background-position-y: -280px;
 }
 
 .projects--carousel__picker {
