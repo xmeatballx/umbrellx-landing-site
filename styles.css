@@ -195,7 +195,7 @@ main {
 }
 
 .news--carousel__network::before {
-  background-image: url("/assets/abstract.jpg");
+  background-image: url("assets/abstract.jpg");
 }
 
 .news--carousel__network a {
@@ -205,7 +205,7 @@ main {
 }
 
 .news--carousel__live::before {
-  background-image: url("/assets/code.jpg");
+  background-image: url("assets/code.jpg");
 }
 
 .news__title {
