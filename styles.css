@@ -260,7 +260,7 @@ main {
   height: max-content;
   background-color: #0c0c0c;
   margin: 0 1rem 1rem 1rem;
-  max-inline-size: 40ch;
+  max-inline-size: 30ch;
   z-index: 1;
 }
 
@@ -595,13 +595,11 @@ footer li:first-child {
   .projects__card {
     max-width: 70%;
   }
-}
-
-/* .news--carousel__item {
-    display: none;
+  .news--carousel__card p {
+    max-inline-size: 40ch;
+  }
 }
 
 .news--carousel__item:first-child {
-    display: flex;
-
-} */
+  display: flex;
+}
