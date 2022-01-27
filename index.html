@@ -1,224 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Umbrellx</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-    <header class="bg--dark">
+      <header class="bg--dark">
         <nav>
-            <a href="" class="logo"><img src="./assets//logo.png" alt=""></a>
-            <div class="hamburger--icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="nav__links">
-                <li class="nav__item"><a href="#about" class="text--light">About</a></li>
-                <li class="nav__item"><a href="#people" class="text--light">People</a></li>
-                <li class="nav__item"><a href="https://forum.umbrellx.org" class="text--light">Forum</a></li>
-                <li class="nav__item"><a href="#projects" class="text--light">Projects</a></li>
-                <li class="nav__item"><a href="" class="btn-primary text--light">Donate</a></li>
-            </ul>
+          <a href="" class="logo"><img src="./assets//logo.png" alt="" /></a>
+          <div class="hamburger--icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a href="#about" class="text--light">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#people" class="text--light">People</a>
+            </li>
+            <li class="nav__item">
+              <a href="https://forum.umbrellx.org" class="text--light">Forum</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="text--light">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="btn-primary text--light">Donate</a>
+            </li>
+          </ul>
         </nav>
         <section class="hero">
-            <h1 class="text--light">Welcome to Umbrellx</h1>
-            <p class="text--light">We’re a network art community, providing resources and services to creative coders </p>
-            <a href="" class="text--light btn-primary">Learn More</a>
+          <h1 class="text--light">Welcome to Umbrellx</h1>
+          <p class="text--light">
+            We’re a network art community, providing resources and services to
+            creative coders
+          </p>
+          <a href="" class="text--light btn-primary">Learn More</a>
         </section>
-    </header>
-    <main class="bg--dark text--light">
+      </header>
+      <main class="bg--dark text--light">
         <section class="news">
-            <h2 class="news__title darktext">News</h2>
-            <ul class="news--carousel">
-                <li class="news--carousel__item">
-                    <div class="news--carousel__card">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat dolorum voluptatibus praesentium earum dignissimos enim!</p>
-                    </div>
-                </li>
-                <li class="news--carousel__item">
-                    <div class="news--carousel__card nomargin">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat dolorum voluptatibus praesentium earum dignissimos enim!</p>
-                    </div>
-                </li>
-                <li class="news--carousel__item">
-                    <div class="news--carousel__card">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat dolorum voluptatibus praesentium earum dignissimos enim!</p>
-                    </div>
-                </li>
-            </ul>
+          <h2 class="news__title darktext">News</h2>
+          <ul class="news--carousel">
+            <li class="news--carousel__item">
+              <div class="news--carousel__card news--carousel__funding">
+                <h4>Umbrellx needs funding!</h4>
+                <p>
+                  Please consider donating today to support artists and
+                  developers everywhere.
+                </p>
+              </div>
+            </li>
+            <li class="news--carousel__item">
+              <div
+                class="news--carousel__card nomargin news--carousel__network"
+              >
+                <h4>What is network art?</h4>
+                <p>
+                  Check out this
+                  <a
+                    href="https://netspecific.net/en/netspecific/what-is-net-art"
+                    >awesome article</a
+                  >
+                  on network art if you're not familiar with the medium.
+                </p>
+              </div>
+            </li>
+            <li class="news--carousel__item">
+              <div class="news--carousel__card news--carousel__live">
+                <h4>Open Cloud is live!</h4>
+                <p>
+                  With the construction of our homebrew cloud hosting service
+                  finished, we will be working with artists to host their work
+                  and explore the capabilities of network art.
+                </p>
+              </div>
+            </li>
+          </ul>
         </section>
         <section class="about" id="about">
-            <figure class="float--right">
-                <img src="./assets/computer.png" alt="">
-            </figure>
-            <div class="about__text">
-                    <h3>The Homebase For Creative Developers And Artists</h3>
-                    <p>What if there was somewhere you could host your web-based projects, browse inpiring work, and connect with other creators? There is! And it’s called Umbrellx</p>
-            </div>
-            <figure class="float--left">
-                <img src="./assets/servers.png" alt="">
-            </figure>
-            <div class="about__text">
-                <h3>We offer hosting with a conscience</h3>
-                <p>Host your websites, apps, services, and digital experiences without putting your hard-earned money into the pockets of large corporations. We built our own cloud computing platform to provide internet realty to the underdogs.</p>
-            </div>
-            <figure class="float--right">
-                <img src="./assets/people.png" alt="">
-            </figure>
-                <div class="about__text">
-                    <h3>Join our community!</h3>
-                    <p>Check out the Umbrellx forum, where you can ask questions, share ideas or projects, and get to know other users and the Umbrellx team.</p>
-                    <a href="" class="btn-primary">Forum</a>
-                </div>
+          <figure class="float--right">
+            <img src="./assets/computer.png" alt="" />
+          </figure>
+          <div class="about__text">
+            <h3>The Homebase For Creative Developers And Artists</h3>
+            <p>
+              What if there was somewhere you could host your web-based
+              projects, browse inpiring work, and connect with other creators?
+              There is! And it’s called Umbrellx
+            </p>
+          </div>
+          <figure class="float--left">
+            <img src="./assets/servers.png" alt="" />
+          </figure>
+          <div class="about__text">
+            <h3>We offer hosting with a conscience</h3>
+            <p>
+              Host your websites, apps, services, and digital experiences
+              without putting your hard-earned money into the pockets of large
+              corporations. We built our own cloud computing platform to provide
+              internet realty to the underdogs.
+            </p>
+          </div>
+          <figure class="float--right">
+            <img src="./assets/people.png" alt="" />
+          </figure>
+          <div class="about__text">
+            <h3>Join our community!</h3>
+            <p>
+              Check out the Umbrellx forum, where you can ask questions, share
+              ideas or projects, and get to know other users and the Umbrellx
+              team.
+            </p>
+            <a href="" class="btn-primary">Forum</a>
+          </div>
         </section>
         <section class="people" id="people">
-            <h2>People
-            </h2>
-            <div class="people__container">
+          <h2>People</h2>
+          <div class="people__container">
             <div class="people__card">
-                <div class="people__image">
-                    <img src="./assets/user.png" alt="">
-                </div>
-                <div class="people__maintext">
-                    <h4>Staysh</h4>
-                    <h5>Location: Portland</h5>
-                </div>
-                <ul class="people__links">
-                    <li><a href="" class="people__links__website"></a></li>
-                    <li><a href="" class="people__links__instagram"></a></li>
-                    <li><a href="" class="people__links__github"></a></li>
+              <div class="people__image">
+                <img src="./assets/user.png" alt="" />
+              </div>
+              <div class="people__maintext">
+                <h4>Staysh</h4>
+                <h5>Location: Portland</h5>
+              </div>
+              <ul class="people__links">
+                <li><a href="" class="people__links__website"></a></li>
+                <li><a href="" class="people__links__instagram"></a></li>
+                <li><a href="" class="people__links__github"></a></li>
+              </ul>
+              <div class="people__subtext">
+                Interests:
+                <ul>
+                  <li>Computing</li>
+                  <li>Art</li>
+                  <li>Stuff</li>
                 </ul>
-                <div class="people__subtext">Interests:
-                    <ul>
-                        <li>Computing</li>
-                        <li>Art</li>
-                        <li>Stuff</li>
-                    </ul>
-                </div>
+              </div>
             </div>
             <div class="people__card">
-                <div class="people__image">
-                    <img src="./assets/user.png" alt="">
-                </div>
-                <div class="people__maintext">
-                    <h4>Erik</h4>
-                    <h5>Location: Brooklyn</h5>
-                </div>
-                <ul class="people__links">
-                    <li><a href="" class="people__links__website"></a></li>
-                    <li><a href="" class="people__links__instagram"></a></li>
-                    <li><a href="" class="people__links__github"></a></li>
+              <div class="people__image">
+                <img src="./assets/user.png" alt="" />
+              </div>
+              <div class="people__maintext">
+                <h4>Erik</h4>
+                <h5>Location: Brooklyn</h5>
+              </div>
+              <ul class="people__links">
+                <li><a href="" class="people__links__website"></a></li>
+                <li><a href="" class="people__links__instagram"></a></li>
+                <li><a href="" class="people__links__github"></a></li>
+              </ul>
+              <div class="people__subtext">
+                Interests:
+                <ul>
+                  <li>Computing</li>
+                  <li>Art</li>
+                  <li>Stuff</li>
                 </ul>
-                <div class="people__subtext">Interests:
-                    <ul>
-                        <li>Computing</li>
-                        <li>Art</li>
-                        <li>Stuff</li>
-                    </ul>
-                </div>
+              </div>
             </div>
             <div class="people__card">
-                <div class="people__image">
-                    <img src="./assets/user.png" alt="">
-                </div>
-                <div class="people__maintext">
-                    <h4>Quinn</h4>
-                    <h5>Location: Portland</h5>
-                </div>
-                <ul class="people__links">
-                    <li><a href="" class="people__links__website"></a></li>
-                    <li><a href="" class="people__links__instagram"></a></li>
-                    <li><a href="" class="people__links__github"></a></li>
+              <div class="people__image">
+                <img src="./assets/user.png" alt="" />
+              </div>
+              <div class="people__maintext">
+                <h4>Quinn</h4>
+                <h5>Location: Portland</h5>
+              </div>
+              <ul class="people__links">
+                <li><a href="" class="people__links__website"></a></li>
+                <li><a href="" class="people__links__instagram"></a></li>
+                <li><a href="" class="people__links__github"></a></li>
+              </ul>
+              <div class="people__subtext">
+                Interests:
+                <ul>
+                  <li>Computing</li>
+                  <li>Art</li>
+                  <li>Stuff</li>
                 </ul>
-                <div class="people__subtext">Interests:
-                    <ul>
-                        <li>Computing</li>
-                        <li>Art</li>
-                        <li>Stuff</li>
-                    </ul>
-                </div>
+              </div>
             </div>
             <div class="people__card">
-                <div class="people__image">
-                    <img src="./assets/user.png" alt="">
-                </div>
-                <div class="people__maintext">
-                    <h4>Someone</h4>
-                    <h5>Location: Somewhere</h5>
-                </div>
-                <ul class="people__links">
-                    <li><a href="" class="people__links__website"></a></li>
-                    <li><a href="" class="people__links__instagram"></a></li>
-                    <li><a href="" class="people__links__github"></a></li>
+              <div class="people__image">
+                <img src="./assets/user.png" alt="" />
+              </div>
+              <div class="people__maintext">
+                <h4>Someone</h4>
+                <h5>Location: Somewhere</h5>
+              </div>
+              <ul class="people__links">
+                <li><a href="" class="people__links__website"></a></li>
+                <li><a href="" class="people__links__instagram"></a></li>
+                <li><a href="" class="people__links__github"></a></li>
+              </ul>
+              <div class="people__subtext">
+                Interests:
+                <ul>
+                  <li>Computing</li>
+                  <li>Art</li>
+                  <li>Stuff</li>
                 </ul>
-                <div class="people__subtext">Interests:
-                    <ul>
-                        <li>Computing</li>
-                        <li>Art</li>
-                        <li>Stuff</li>
-                    </ul>
-                </div>
+              </div>
             </div>
-        </div>
+          </div>
         </section>
         <section class="projects" id="projects">
-            <h2>Projects</h2>
-            <div class="projects__cards">
+          <h2>Projects</h2>
+          <div class="projects__cards">
             <div class="projects__card">
-                <h3>Margins</h3>
-                <p>Collaborative Annotation</p>
+              <h3>Margins</h3>
+              <p>Collaborative Annotation</p>
             </div>
             <div class="projects__card">
-                <h3>Open Star Systems</h3>
-                <p>Interactive Lighting Installation</p>
+              <h3>Open Star Systems</h3>
+              <p>Interactive Lighting Installation</p>
             </div>
             <div class="projects__card">
-                <h3>Share Space Works</h3>
-                <p>Max For Live Devices</p>
+              <h3>Share Space Works</h3>
+              <p>Max For Live Devices</p>
             </div>
             <div class="projects--carousel__picker">
-                <img src="./assets/chevron.svg" alt="" class="arrow--left">
-                <div class="circle selected"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <img src="./assets//chevron.svg" alt="" class="arrow--right">
+              <img src="./assets/chevron.svg" alt="" class="arrow--left" />
+              <div class="circle selected"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <img src="./assets//chevron.svg" alt="" class="arrow--right" />
             </div>
-            </div>
+          </div>
         </section>
-    </main>
-    <footer class="bg--dark">
-        <a href="" class="logo"><img src="./assets/logo.png" alt=""></a>
-        <p class="text--light">Join the <a href="">forum</a> to contact us or email <email>...@umbrellx.org</email></p>
+      </main>
+      <footer class="bg--dark">
+        <a href="" class="logo"><img src="./assets/logo.png" alt="" /></a>
+        <p class="text--light">
+          Join the <a href="">forum</a> to contact us or email
+          <email>...@umbrellx.org</email>
+        </p>
         <ul class="footer__sitemap">
-            <li class="text--light">Sitemap</li>
-            <li><a href="#about" class="text--light">About</a></li>
-            <li><a href="#people" class="text--light">People</a></li>
-            <li><a href="https://forum.umbrellx.org" class="text--light">Forum</a></li>
-            <li><a href="#projects" class="text--light">Projects</a></li>
-            <li><a href="" class="text--light">Donate</a></li>
+          <li class="text--light">Sitemap</li>
+          <li><a href="#about" class="text--light">About</a></li>
+          <li><a href="#people" class="text--light">People</a></li>
+          <li>
+            <a href="https://forum.umbrellx.org" class="text--light">Forum</a>
+          </li>
+          <li><a href="#projects" class="text--light">Projects</a></li>
+          <li><a href="" class="text--light">Donate</a></li>
         </ul>
         <ul class="footer__socials">
-            <li class="text--light">Follow Us</li>
-            <li><a href="" class="text--light">Instagram</a></li>
-            <li><a href="" class="text--light">Twitter</a></li>
-            <li><a href="" class="text--light">LinkedIn</a></li>
-            <li><a href="" class="text--light">Github</a></li>
-
+          <li class="text--light">Follow Us</li>
+          <li><a href="" class="text--light">Instagram</a></li>
+          <li><a href="" class="text--light">Twitter</a></li>
+          <li><a href="" class="text--light">LinkedIn</a></li>
+          <li><a href="" class="text--light">Github</a></li>
         </ul>
-    </footer>
-</div>
-<script src="scripts/projects_carousel.js"></script>
-<script src="scripts/hamburger.js"></script>
-</body>
+      </footer>
+    </div>
+    <script src="scripts/projects_carousel.js"></script>
+    <script src="scripts/hamburger.js"></script>
+  </body>
 </html>
